@@ -4,3 +4,5 @@ WeatherApp is a clean and user-friendly web application built with ASP.NET Core.
 
 ![Screenshot](myappscreenshot.png)
 
+Please don't forget to add the API key generated from OpenWeatherMap in appsettings.json for it to work.
+

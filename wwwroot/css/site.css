@@ -1,4 +1,3 @@
-/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +15,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Main container */
 .text-center {
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(15px);
@@ -32,7 +30,6 @@ body {
     position: relative;
 }
 
-/* Form styling */
 form {
     margin-bottom: 2rem;
     display: flex;
@@ -41,7 +38,6 @@ form {
     align-items: center;
 }
 
-/* Input field */
 input[type="text"] {
     width: 100%;
     max-width: 300px;
@@ -67,7 +63,6 @@ input[type="text"]:focus {
     background: rgba(255, 255, 255, 0.2);
 }
 
-/* Button styling */
 button[type="submit"] {
     background: linear-gradient(135deg, #ff6b6b, #ee5a52);
     color: white;
@@ -80,7 +75,6 @@ button[type="submit"] {
     box-shadow: 0 8px 25px rgba(238, 90, 82, 0.3);
 }
 
-/* Weather display */
 h2 {
     color: white;
     font-size: 2rem;
@@ -105,7 +99,6 @@ p:last-child {
     margin-bottom: 0;
 }
 
-/* Responsive design */
 @media (max-width: 600px) {
     .text-center {
         padding: 2rem 1.5rem;
