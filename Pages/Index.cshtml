@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+<form method="get">
+    <input type="text" name="city" placeholder="Enter city" />
+    <button type="submit">Get Weather</button>
+</form>
+@if (Model.Weather != null)
+{
+    <h2>Weather in @Model.Weather.City</h2>
+    <p>Temperature: @Model.Weather.Temperature°C</p>
+    <p>Condition: @Model.Weather.Description</p>
+}
+</div>
